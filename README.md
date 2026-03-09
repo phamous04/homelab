@@ -1,4 +1,3 @@
-cat > README.md <<'EOF'
 # Homelab
 
 A self-hosted homelab repository for documenting and managing my home infrastructure and services.
