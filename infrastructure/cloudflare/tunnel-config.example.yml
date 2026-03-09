@@ -1,0 +1,8 @@
+tunnel: immich-tunnel
+credentials-file: ~/.cloudflared/<TUNNEL_ID>.json
+
+ingress:
+  - hostname: photos.yourdomain.com
+    service: http://localhost:2283
+
+  - service: http_status:404
