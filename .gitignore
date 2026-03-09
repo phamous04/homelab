@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Immich / Docker runtime data
+postgres/
+thumbs/
+encoded-video/
+profile/
+backups/
+upload/
+immich-data/
+library-local/
+cache/
+db/
+uploads_local/
+
+# App runtime data
+apps/**/data/
+apps/**/runtime/
+apps/**/secrets/
+apps/**/.env
+apps/**/.env.local
+
+# Docker
+*.pid
+docker-data/
